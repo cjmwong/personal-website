@@ -99,19 +99,19 @@
 
 .img-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    min-width: 1170px;
 }
 
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    place-items: center;
     gap: 10px;
-    margin:auto;
 }
 
 .photos{
     width: 500px;
     height: 300px;
+    object-fit: cover;
 }
