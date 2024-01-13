@@ -1,0 +1,114 @@
+.bg{
+    background-color: rgb(212, 235, 255);
+}
+.nav{
+    background-color: rgb(147, 197, 243);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    padding:15px;
+    color:rgb(212, 235, 255);
+    min-width: 1170px;
+}
+
+#no-ul{
+    text-decoration: none;
+    color:rgb(28, 77, 121);
+}
+
+.set-min-width{
+    min-width: 1170px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    min-width: 1170px;
+}
+
+.profile{
+    height:auto;
+    width:10%;
+    min-width: 175px;
+    padding-top:25px;
+}
+
+.section-1{
+    display:grid;
+    justify-content: space-evenly;
+    padding-top:25px;
+    min-width: 1170px;
+
+}
+
+.c1{
+    display:flex;
+    grid-column: 1/2;
+    justify-content: center;
+    min-width: 350px;
+    max-width:350px;
+    padding:20px;
+}
+
+.c2{
+    display:flex;
+    grid-column: 2/3;
+    justify-content: center;
+    min-width: 350px;
+    max-width:350px;
+    padding:20px;
+}
+
+.c3{
+    display:flex;
+    grid-column: 3/4;
+    justify-content: center;
+    min-width: 350px;
+    max-width:350px;
+    padding:20px;
+}
+
+.h{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    padding-top:25px;
+    border: 2px solid black;
+    background-color: rgb(147, 197, 243);
+    color:rgb(22, 58, 90);
+}
+.h1{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(147, 197, 243);
+    color:rgb(22, 58, 90);
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.text{
+    font-weight: lighter;
+    font-family: 'Times New Roman', serif;
+    text-align: left;
+    line-height: 1.5;
+    background-color: white;
+    color:black;
+    background-color: rgb(212, 235, 255);
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.photos{
+    height:300px;
+    width:500px
+}
